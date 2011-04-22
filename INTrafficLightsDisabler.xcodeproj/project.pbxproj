@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F3E47A136226420058EDF5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F3E479136226420058EDF5 /* CoreFoundation.framework */; };
+		03F3E480136226420058EDF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03F3E47E136226420058EDF5 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F3E476136226420058EDF5 /* INTrafficLightsDisabler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INTrafficLightsDisabler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F3E479136226420058EDF5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		03F3E47D136226420058EDF5 /* INTrafficLightsDisabler-Info.plist */ = {isa = PBXFileReference; path = "INTrafficLightsDisabler-Info.plist"; sourceTree = "<group>"; };
+		03F3E47F136226420058EDF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03F3E481136226420058EDF5 /* INTrafficLightsDisabler-Prefix.pch */ = {isa = PBXFileReference; path = "INTrafficLightsDisabler-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F3E473136226420058EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3E47A136226420058EDF5 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F3E46B136226420058EDF5 = {
+			isa = PBXGroup;
+			children = (
+				03F3E47B136226420058EDF5 /* INTrafficLightsDisabler */,
+				03F3E478136226420058EDF5 /* Frameworks */,
+				03F3E477136226420058EDF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F3E477136226420058EDF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F3E476136226420058EDF5 /* INTrafficLightsDisabler.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F3E478136226420058EDF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F3E479136226420058EDF5 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03F3E47B136226420058EDF5 /* INTrafficLightsDisabler */ = {
+			isa = PBXGroup;
+			children = (
+				03F3E47C136226420058EDF5 /* Supporting Files */,
+			);
+			path = INTrafficLightsDisabler;
+			sourceTree = "<group>";
+		};
+		03F3E47C136226420058EDF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03F3E47D136226420058EDF5 /* INTrafficLightsDisabler-Info.plist */,
+				03F3E47E136226420058EDF5 /* InfoPlist.strings */,
+				03F3E481136226420058EDF5 /* INTrafficLightsDisabler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F3E475136226420058EDF5 /* INTrafficLightsDisabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F3E484136226420058EDF5 /* Build configuration list for PBXNativeTarget "INTrafficLightsDisabler" */;
+			buildPhases = (
+				03F3E472136226420058EDF5 /* Sources */,
+				03F3E473136226420058EDF5 /* Frameworks */,
+				03F3E474136226420058EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INTrafficLightsDisabler;
+			productName = INTrafficLightsDisabler;
+			productReference = 03F3E476136226420058EDF5 /* INTrafficLightsDisabler.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F3E46D136226420058EDF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "PCWiz Computer";
+			};
+			buildConfigurationList = 03F3E470136226420058EDF5 /* Build configuration list for PBXProject "INTrafficLightsDisabler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03F3E46B136226420058EDF5;
+			productRefGroup = 03F3E477136226420058EDF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F3E475136226420058EDF5 /* INTrafficLightsDisabler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F3E474136226420058EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3E480136226420058EDF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F3E472136226420058EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03F3E47E136226420058EDF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F3E47F136226420058EDF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F3E482136226420058EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03F3E483136226420058EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03F3E485136226420058EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "INTrafficLightsDisabler/INTrafficLightsDisabler-Prefix.pch";
+				INFOPLIST_FILE = "INTrafficLightsDisabler/INTrafficLightsDisabler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03F3E486136226420058EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "INTrafficLightsDisabler/INTrafficLightsDisabler-Prefix.pch";
+				INFOPLIST_FILE = "INTrafficLightsDisabler/INTrafficLightsDisabler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F3E470136226420058EDF5 /* Build configuration list for PBXProject "INTrafficLightsDisabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F3E482136226420058EDF5 /* Debug */,
+				03F3E483136226420058EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F3E484136226420058EDF5 /* Build configuration list for PBXNativeTarget "INTrafficLightsDisabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F3E485136226420058EDF5 /* Debug */,
+				03F3E486136226420058EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F3E46D136226420058EDF5 /* Project object */;
+}
