@@ -20,7 +20,6 @@
 		0362DE811368ECBD00434FCB /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRSwizzle.m; path = "Third Party/JRSwizzle/JRSwizzle.m"; sourceTree = SOURCE_ROOT; };
 		0362DE831368ED1500434FCB /* NSWindow+Disabler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Disabler.h"; sourceTree = "<group>"; };
 		0362DE841368ED1500434FCB /* NSWindow+Disabler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+Disabler.m"; sourceTree = "<group>"; };
-		0362DE861368F13700434FCB /* _NSThemeCloseWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _NSThemeCloseWidget.h; sourceTree = "<group>"; };
 		03F3E476136226420058EDF5 /* INTrafficLightsDisabler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INTrafficLightsDisabler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F3E479136226420058EDF5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		03F3E47D136226420058EDF5 /* INTrafficLightsDisabler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "INTrafficLightsDisabler-Info.plist"; sourceTree = "<group>"; };
@@ -29,7 +28,6 @@
 		03F3E48C136227FA0058EDF5 /* INTrafficLightsDisabler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTrafficLightsDisabler.h; sourceTree = "<group>"; };
 		03F3E48D136227FB0058EDF5 /* INTrafficLightsDisabler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTrafficLightsDisabler.m; sourceTree = "<group>"; };
 		03F3E49213622AB00058EDF5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		03F3E497136230470058EDF5 /* _NSThemeWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _NSThemeWidget.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				0362DE7E1368ECA400434FCB /* JRSwizzle */,
-				03F3E494136230470058EDF5 /* Private Headers */,
 				03F3E47C136226420058EDF5 /* Supporting Files */,
 				03F3E48C136227FA0058EDF5 /* INTrafficLightsDisabler.h */,
 				03F3E48D136227FB0058EDF5 /* INTrafficLightsDisabler.m */,
@@ -102,15 +99,6 @@
 				03F3E481136226420058EDF5 /* INTrafficLightsDisabler-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		03F3E494136230470058EDF5 /* Private Headers */ = {
-			isa = PBXGroup;
-			children = (
-				0362DE861368F13700434FCB /* _NSThemeCloseWidget.h */,
-				03F3E497136230470058EDF5 /* _NSThemeWidget.h */,
-			);
-			path = "Private Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

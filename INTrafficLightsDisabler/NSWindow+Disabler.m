@@ -7,8 +7,6 @@
 
 #import "INTrafficLightsDisabler.h"
 #import "NSWindow+Disabler.h"
-#import "_NSThemeWidget.h"
-#import "_NSThemeCloseWidget.h"
 
 @implementation NSWindow (Disabler)
 // Suppress compiler warnings
@@ -34,15 +32,14 @@
     /* We could just remove the widgets from the theme frame entirely, but that
      * is likely to cause unwanted problems. Therefore it's easier to just hide
      * them from view */
-    NSView *themeFrame = [[self contentView] superview];
-    for (NSView *subview in [themeFrame subviews]) {
-        if ([subview isKindOfClass:[_NSThemeWidget class]]) {
-#ifdef DONT_DISABLE_CLOSE_BUTTON
-            if (![subview isKindOfClass:[_NSThemeCloseWidget class]])
+    NSButton *closeButton = [self standardWindowButton:NSWindowCloseButton];
+    NSButton *minButton = [self standardWindowButton:NSWindowMiniaturizeButton];
+    NSButton *zoomButton = [self standardWindowButton:NSWindowZoomButton];
+#ifndef DONT_DISABLE_CLOSE_BUTTON
+    [closeButton setHidden:YES];
 #endif
-                [subview setHidden:YES];
-        }
-    }
-
+    [minButton setHidden:YES];
+    [zoomButton setHidden:YES];
+           
 }
 @end
