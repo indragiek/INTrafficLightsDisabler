@@ -10,6 +10,7 @@
 /** Uncomment this define to disable all of the traffic lights EXCEPT for the close button */
 
 // #define DONT_DISABLE_CLOSE_BUTTON
+// #define DONT_DISABLE_ZOOM_BUTTON
 
 @interface INTrafficLightsDisabler : NSObject { }
 @end
