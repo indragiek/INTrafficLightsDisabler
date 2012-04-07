@@ -13,8 +13,9 @@ You will notice this #define in the `INTrafficLightsDisabler.h` file:
     /** Uncomment this define to disable all of the traffic lights EXCEPT for the close button */
 
     // #define DONT_DISABLE_CLOSE_BUTTON
+    // #define DONT_DISABLE_ZOOM_BUTTON
 
-It does exactly what it says. Uncommenting that line will make it so that the zoom and minimize traffic lights are hidden, but the close button will remain visible (known as the "Cyclops version").
+It does exactly what it says. Uncommenting either line will make it so that the minimize traffic light are hidden, but the close and/or zoom button will remain visible (known as the "Cyclops version").
 
 Who am I?
 ====================

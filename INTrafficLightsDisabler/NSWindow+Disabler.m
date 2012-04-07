@@ -39,7 +39,9 @@
     [closeButton setHidden:YES];
 #endif
     [minButton setHidden:YES];
+#ifndef DONT_DISABLE_ZOOM_BUTTON
     [zoomButton setHidden:YES];
+#endif
            
 }
 @end
